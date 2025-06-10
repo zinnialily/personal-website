@@ -1,0 +1,35 @@
+img{
+    width: 200px;
+}
+body{
+    text-align: center;
+    font-family: 'Arial';
+    background: azure;
+    color: rgb(80, 53, 11);
+}
+/* center button container */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*for each button */
+.nav-button {
+    padding: 10px 20px;
+    background-color: rgb(80, 53, 11);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
+}
+
+/*hover effect*/
+.nav-button:hover {
+    background-color: rgb(110, 73, 20);
+    transform: scale(1.05);
+}
